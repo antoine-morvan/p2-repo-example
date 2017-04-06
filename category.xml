@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
-	<!-- Category definitions -->
+	<!-- Category definitions
 	<category-def name="externald_deps" label="External Dependencies">
 		<description>
 			Third party libraries.
 		</description>
-	</category-def>
+	</category-def> -->
 
 	<category-def name="source_components" label="Developer Resources">
 		<description>
@@ -13,13 +13,13 @@
 		</description>
 	</category-def>
 	
-	<!-- IUs -->
+	<!-- IUs
 	<iu>
 		<category name="externald_deps" />
 		<query>
 			<expression type="match">providedCapabilities.exists(p | p.namespace == 'osgi.bundle')</expression>
 		</query>
-	</iu> 
+	</iu>  -->
 	
 	<iu>
 		<category name="source_components" />
